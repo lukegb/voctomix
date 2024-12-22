@@ -22,5 +22,6 @@
       default = self.packages."${system}".voctomix;
     });
 
+    checks = self.packages;
   };
 }
